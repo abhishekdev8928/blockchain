@@ -167,3 +167,27 @@ A **blockchain node** is a computer or software that participates in a blockchai
 ![alt text](image-1.png)
 
 ![alt text](image.png)
+
+
+
+# ❓ Can MetaMask Create Wallets Programmatically?
+
+❌ No, MetaMask does **not** allow creating new wallets programmatically through its API for security reasons.
+
+---
+
+## 🔒 Why Not?
+
+- MetaMask is designed to keep user control and security as top priority.
+- Wallets must be created manually by the user **inside MetaMask's UI**.
+- JavaScript APIs (like `window.ethereum`) **do not expose** any method to create wallets or private keys.
+
+---
+
+## ✅ What You *Can* Do with MetaMask API:
+
+- Connect to an existing wallet  
+- Get the user's address  
+- Sign messages and transactions  
+- Interact with smart contracts  
+- Detect account or network changes  
